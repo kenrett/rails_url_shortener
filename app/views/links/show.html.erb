@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Here's your short URL!</h1>
+  <p><%= '/short/' + @link.short_url %></p>
+  You're original url is:<%= @link.url %><br>
+  <%= link_to 'go to the real site', @link.url %>
+  
+  <br><br>
+  <a href="/">Create another short URL</a>
+</div>
